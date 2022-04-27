@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:ital,wght@0,600;1,200;1,400&display=swap');
+
+* {
+    font-family: Poppins,sans-serif;
+}
+
+.navbar {
+    
+        width: 100%;
+        background-color: #fafafa;
+        padding: 1rem 8%;
+        position: relative;
+        flex-flow: nowrap;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.navbar-nav {
+        background-color: #fafafa;
+        padding: 1rem 9%;
+        position: relative;
+        flex-flow: nowrap;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.blue-back {
+    background-image: url(/assets/heroTop.svg);
+    background-color: #b90373;
+    border-radius: 20px;
+    /* display: grid;
+    place-items: center;
+    position: relative;
+    z-index: 10;
+    margin: 0 20px;
+    padding: 0 60px;
+     */
+}
+
+.first-box {
+    height: 100%;
+    margin: 7rem 3% auto;
+    padding: 2rem 5%;
+}
+
+img {
+    height: 20rem;
+}
+
+.middle {
+
+    text-align: center;
+}
+
+.middle h1 {
+    font-size: 32px;
+    line-height: 56px;
+    color: #121212;
+    margin-top: 6rem;
+    
+}
+
+ p {
+    
+        margin-top: 1rem;
+        color: rgba(0,25,46,.5)!important;
+        line-height: 35px;
+        font-size: 18px;
+        /* text-align: center; */
+        /* padding: 0 20%; */
+}
+
+.middle-p {
+    
+    text-align: center;
+    padding: 0 20%;
+}
+
+.btn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        background-color: #b90373; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-right: 3rem;
+  }
+
+  .btn:hover {
+    background-color: #fff;
+    color: #b90373;
+  }
+
+
+  .fa-solid {
+    height: 50px;
+    width: 50px;
+    background-color: #b90373;
+    border: solid;
+    border-radius: 50%;
+    padding: 13px;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+
+  .icons {
+      margin-top: 5rem;
+  }
+
+  .bg-grad {
+    padding: 2rem 0 0;
+    max-height: 85vh;
+    height: 85vh;
+    margin: 2rem 5% auto;
+    overflow-y: hidden;
+    background: linear-gradient(161.48deg,#b90373 -47.77%,rgba(0,232,190,0) 146.51%);
+    border-radius: 12px;
+    position: relative;
+  }
+
+  .bg-grad-btn {
+    background-color: #fff;
+    color: #b90373;
+    display: block!important;
+    padding: 1.5rem 5rem!important;
+    margin: 20px auto;
+   border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0;
+}
+
+.bg-grad-img {
+    
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin: auto;
+    display: block;
+}
+
+.sub-section {
+        text-align: center;
+        padding: 1rem 18%;
+        margin-top: 2.5rem;
+    }
+
+    .mid-h {
+        text-align: center;
+    }
+
+    .container-low{
+        padding: 0 50px;
+    }
+
+    .three{
+        margin: 50px 20px;
+        background-image: url(/assets/heroTop.svg);
+        background-color: #f9f9f9;
+        border-radius: 20px;
+    }
+
+    .low-h {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        color: #121212;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .low-p {
+        margin-top: 1rem;
+        color: rgba(0,25,46,.5)!important;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        
+    }
+
+  .low-img {
+      height: 15rem;
+  }
+
+
+  .faq-section{
+    margin-top: 5rem;
+    padding: 0 50px;
+  }
+
+  .table {
+      margin-left: -80px;
+  }
+
+  td {
+      display: inline-flex;
+  }
+
+ h5 {
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 1rem;
+    
+ }
+
+
+
+ .foot-p {
+    width: 70%;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(18,18,18,.5);
+    text-decoration: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
